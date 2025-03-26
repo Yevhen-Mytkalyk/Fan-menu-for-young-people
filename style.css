@@ -2,12 +2,14 @@ body{
 background-color: bisque;
 margin: 0;
 color: black;
+font-family: "Montserrat", sans-serif;
 }
 a{
     color: inherit;
     text-decoration: none;
 }
 button{
+    margin-left: 1200px;
     border: 3px solid brown;
     background-color: chocolate;
     border-radius: 15px;
@@ -18,9 +20,47 @@ header{
     height: 100px;
     width: 100%;
 }
+header img{
+    width: 90px;
+}
+.fan-menu{
+    text-align: center;
+}
 main{
     margin: 50px;
 }
-
-
-
+.burgers{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.burgers h2 p{
+    padding: 10;
+}
+.burgers p{
+    padding: 50px;
+}
+.rols{
+    display: flex;
+}
+.rols p{
+    padding: 50px;
+    
+}
+.drinks{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.drinks p{
+   padding: 50px;
+}
+.desserts{
+    display: flex;
+}
+.desserts p{
+    padding: 30px;
+}
+footer{
+    background-color: darkkhaki;
+    padding: 20px;
+    text-align: center;
+}
