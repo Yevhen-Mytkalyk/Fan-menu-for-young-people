@@ -9,15 +9,16 @@ a{
     text-decoration: none;
 }
 button{
+
     margin-left: 1200px;
-    border: 3px solid brown;
-    background-color: chocolate;
+    border: 3px solid rgb(42, 126, 165);
+    background-color: rgb(255, 0, 0);
     border-radius: 15px;
     padding: 0 16px;
 }
 header{
     background-color: aqua;
-    height: 100px;
+    height: 120px;
     width: 100%;
 }
 header img{
@@ -26,38 +27,74 @@ header img{
 .fan-menu{
     text-align: center;
 }
+
+.fan-menu img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+
 main{
     margin: 50px;
 }
+.container{
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
 .burgers{
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: right;
+    gap: 15px;
 }
-.burgers h2 p{
-    padding: 10;
-}
+
 .burgers p{
-    padding: 50px;
+    display: flex;
+    flex-direction: column ;
 }
+.burgers h2{
+    display: flex;
+    justify-content: right;
+}
+
 .rols{
     display: flex;
+    justify-content: left;
+    gap: 15px;
 }
 .rols p{
-    padding: 50px;
-    
+    display: flex;
+    flex-direction: column;
 }
+.rols h2{
+    display: flex;
+    justify-content: left;
+}
+
 .drinks{
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: right;
+    gap: 15px;
 }
 .drinks p{
-   padding: 50px;
+   display: flex;
+   flex-direction: column;
+}
+.drinks h2{
+  display: flex;
+  justify-content: right;
 }
 .desserts{
     display: flex;
+    gap: 15px;
 }
 .desserts p{
-    padding: 30px;
+   display: flex;
+   flex-direction: column;
+}
+.desserts h2{
+    display: flex;
+    justify-content: left;
 }
 footer{
     background-color: darkkhaki;
